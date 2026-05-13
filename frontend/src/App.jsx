@@ -5,21 +5,27 @@ import LoginPage from './Pages/LoginPage/LoginPage';
 import './index.css';
 import PrivateRoute from './Components/PrivateRoute/PrivateRoute';
 import { HeaderMegaMenu } from './Components/Navbar/HeaderMegaMenu';
+import Profile from './Components/Profile/Profile';
+
+
 
 
 function App() {
-  return (
-    <Router>
-        <HeaderMegaMenu/>
-        <Routes>
-            <Route path='/' element={<Home/>}/>
-            <Route path='/login' element={<LoginPage/>} />
-            <Route element={<PrivateRoute/>}>
+ return (
+   <Router>
+       <HeaderMegaMenu/>
+       <Routes>
+           <Route path='/' element={<Home/>}/>
+           <Route path='/profile' element={<Profile />} />
+           <Route path='/login' element={<LoginPage/>} />
+           <Route element={<PrivateRoute/>}>
 
-            </Route>
-        </Routes>
-    </Router>
-  )
+
+           </Route>
+       </Routes>
+   </Router>
+ )
 }
+
 
 export default App
