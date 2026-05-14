@@ -6,10 +6,10 @@ export default function Profile() {
 
 
    const dummy = {
-       name: "Rohit Kumar",
-       email: "rohit@example.com",
-       id: "1234567890",
-       avatar: "https://avatars.githubusercontent.com/u/1234567890?v=4"
+       name: "Sri Susmitha",
+       email: "srisusmithagedela@gmail.com",
+       id: "7569479528",
+       avatar: "https://github.com/Susmitha40047/susmittha-url-shortener-dev-example"
    }
 
 
