@@ -9,6 +9,7 @@
     "concurrently": "^8.0.1"
   },
   "dependencies": {
+    "express": "^5.2.1",
     "package-name": "^0.1.0"
   }
 }
